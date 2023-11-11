@@ -1,0 +1,38 @@
+.GameContainer {
+    display: flex;
+  }
+  
+  .Game {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    
+  }
+  
+  svg {
+    width: 100px; 
+    height: 300px; 
+  }
+  
+  .Player1,
+  .Player2 {
+    width: 100%;
+    height: 100%;
+    stroke: black;
+    stroke-width: 2;
+    fill: transparent;
+  }
+  
+  .active {
+    fill: green;
+  }
+  
+  text {
+    dominant-baseline: middle;
+    text-anchor: middle;
+    fill: black; /* Text color */
+  }
+  
