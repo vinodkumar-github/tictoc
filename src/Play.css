@@ -1,32 +1,37 @@
 .play-wrapper {
-    text-align: center;
-  }
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+}
+
+.game-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.matrix-container {
+  display: flex;
+  grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
+ 
   
-  .matrix-container {
-    display: inline-block;
-    margin-top: 20px;
-  }
+  margin: 0 auto;
+ 
+}
+
+.matrix-row {
+  display: block;
+ 
+
+}
+
+.cell {
+  width: 30px;
+  height: 30px;
   
-  .matrix-row {
-    display: flex;
-  }
-  
-  .matrix-cell {
-    width: 50px;
-    height: 50px;
-    border: 1px solid #ccc;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-    margin: 2px;
-  }
-  
-  .player-x {
-    color: #3498db; /* Blue color for 'X' */
-  }
-  
-  .player-o {
-    color: #e74c3c; /* Red color for 'O' */
-  }
-  
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  border: 1px solid #000;
+  font-size: 1.5em;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}

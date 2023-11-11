@@ -26,7 +26,7 @@ function Play({ boardSize }) {
         {arrayer.map((j) => (
           <div key={j} className="matrix-row">
             {arrayer[j].map( (i) => (
-              <p
+              <p 
                 key={i}
                 
                 
