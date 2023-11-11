@@ -23,13 +23,13 @@
   }
   
   svg {
-    width: 100px; 
+    width: 250px; 
     height: 100px; 
   }
   
   .Player1,
   .Player2 {
-    width: 100px;
+    width: 250px;
     height: 100px;
     stroke: black;
     stroke-width: 2;
@@ -44,6 +44,7 @@
     dominant-baseline: middle;
     text-anchor: middle;
     fill: black;
-    font-weight: bold; /* Text color */
+    font-weight: bold; 
+    font-size:medium;
   }
   
