@@ -118,10 +118,20 @@ function Play({ gameData, boardSize, isXNext, setIsXNext }) {
   }
 
   return (
+    <>
     <div className="play-wrapper">
+  
       <h1 className="game-title">Tic Tac Toe</h1>
+     
+    
+     
+      
       {endHandler()}
+     
     </div>
+    <br /><br />
+    <bold>(Note: Double click on the cell to place your mark)</bold>
+    </>
   );
 }
 
