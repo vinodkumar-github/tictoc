@@ -18,7 +18,7 @@ function Game({ gameData }) {
         <svg>
           <rect className={`Player1 ${isXNext ? 'active' : ''}`}></rect>
           <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" fill="black">
-            {gameData['player1']}: "X"
+          "X": {gameData['player1']}
           </text>
         </svg>
       </div>
@@ -27,7 +27,7 @@ function Game({ gameData }) {
         <svg>
           <rect className={`Player2 ${isXNext ? '' : 'active'}`}></rect>
           <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" fill="black">
-            {gameData['player2']}: "O"
+          "O": {gameData['player2']}: 
             
             
           </text>
