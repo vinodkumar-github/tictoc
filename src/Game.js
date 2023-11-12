@@ -39,7 +39,7 @@ function Game({ gameData }) {
     </div>
     </div>
     <div className='Play'>
-        <Play boardSize={boardSize} isXNext={isXNext} setIsXNext={setIsXNext} />
+        <Play gameData ={gameData} boardSize={boardSize} isXNext={isXNext} setIsXNext={setIsXNext} />
       </div>
     </>
   );

@@ -35,3 +35,40 @@
   cursor: pointer;
   transition: background-color 0.3s;
 }
+
+.Xwins{
+  
+    background-color: #11ff00; 
+    color: #ffffff; 
+    padding: 10px; 
+    font-size: 20px; 
+    text-align: center; 
+    font-weight: bold; 
+    border-radius: 8px;
+    margin: 20px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  .Owins{
+  
+    background-color: #11ff00; 
+    color: #ffffff; 
+    padding: 10px; 
+    font-size: 20px; 
+    text-align: center; 
+    font-weight: bold; 
+    border-radius: 8px;
+    margin: 20px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  .Gameover{
+  
+    background-color: #ff0000; 
+    color: #ffffff; 
+    padding: 10px; 
+    font-size: 20px; 
+    text-align: center; 
+    font-weight: bold; 
+    border-radius: 8px;
+    margin: 20px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
