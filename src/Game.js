@@ -7,6 +7,7 @@ import Play from './Play';
 function Game({ gameData }) {
   const [isXNext, setIsXNext] = useState(true);
   const boardSize = gameData['grid'];
+  
 
   return (
     <>
